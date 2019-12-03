@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>35MM</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <link rel="stylesheet" href="styles/style-main.css" type="text/css">
+  <link rel="shortcut icon" type="images/png" href="images/favicon.png" />
+</head>
+
+<body>
+    
+  <div class="responsive-overlay"></div>
+  <div class="responsive-menu">
+    <img id="hamburger-icon" src="images/icons/menu.png" class="fas fa-bars"></img>
+    <ul>
+      <li><a class="rm-link" href="index.html">Početna</a></li>
+      <li><a class="rm-link" href="galerija.html">Galerija</a></li>
+      <li><a class="rm-link" href="slike.html">Slike</a></li>
+      <li><a class="rm-link" href="kontakt.html">Kontakt</a></li>
+    </ul>
+  </div>
+  <div class="responsive-navbar">
+    <img id="icon" src="images/icons/menu.png" class="fas fa-bars"></img>
+    <img id="logo_mobile" src="images/logo.png"></img>
+  </div>
+  <div class="wrapper row2">
+    <header id="header">
+      <a href="index.html"><img src="images/logo.png" alt="" height="128"></a>
+      <div id="social">
+        <div>
+          <ul id="icons">
+            <li id="i"><a href="https://www.instagram.com/"><img src="images/icons/instagram.png"></a></li>
+            <li id="f"><a href="https://www.facebook.com/"><img src="images/icons/facebook.png"></a></li>
+            <li id="e"><a href="mailto:office@35mm.com"><img src="images/icons/email.png"></a></li>
+          </ul>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="galerija.html">Galerija</a></li>
+            <li><a href="slike.html">Slike</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="jQueryfunkcionalnost">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+          $("button").click(function(){
+            $("p").toggle();
+          });
+        });
+        </script>
+        
+        <button>Naše fotografije možete naručiti:</button>
+        <p> - online</p>
+        <p> - dolaskom u našu kancelariju</p>
+    </div>
+    <div id="main_title">
+      <h2>Galerija naših slika</h2>
+    </div>
+
+    <div class="top">
+      <div class="container">
+
+        <div class="feature">
+          <figure class="featured-item image-holder r-3-2 transition"></figure>
+        </div>
+
+        <div class="gallery-wrapper">
+          <div class="gallery">
+            <div class="item-wrapper">
+              <figure class="gallery-item image-holder r-3-2 active transition"></figure>
+            </div>
+            <div class="item-wrapper">
+              <figure class="gallery-item image-holder r-3-2 transition"></figure>
+            </div>
+            <div class="item-wrapper">
+              <figure class="gallery-item image-holder r-3-2 transition"></figure>
+            </div>
+            <div class="item-wrapper">
+              <figure class="gallery-item image-holder r-3-2 transition"></figure>
+            </div>
+            <div class="item-wrapper">
+              <figure class="gallery-item image-holder r-3-2"></figure>
+            </div>
+            <div class="item-wrapper">
+              <figure class="gallery-item image-holder r-3-2 transition"></figure>
+            </div>
+            <div class="item-wrapper">
+              <figure class="gallery-item image-holder r-3-2 transition"></figure>
+            </div>
+            <div class="item-wrapper">
+              <figure class="gallery-item image-holder r-3-2 transition"></figure>
+            </div>
+            <div class="item-wrapper">
+              <figure class="gallery-item image-holder r-3-2 transition"></figure>
+            </div>
+            <div class="item-wrapper">
+              <figure class="gallery-item image-holder r-3-2 transition"></figure>
+            </div>
+          </div>
+        </div>
+
+        <div class="controls">
+          <button class="move-btn left">&larr;</button>
+          <button class="move-btn right">&rarr;</button>
+        </div>
+
+      </div>
+    </div>
+    <div id="order">
+      <p>Naruči željene slike <a href="kontakt.html">OVDE</a>!</p>
+    </div>
+    <!-- Footer -->
+    <div class="wrapper row3">
+      <footer id="footer" class="clear">
+        <section class="one_quarter">
+          <h2 class="title">Pratite nas</h2>
+          <ul class="pratite_nas">
+            <li>Facebook: <a href="www.facebook.com">35MM</a></li>
+            <li>Instagram: <a href="www.instagram.com">@35mm</a></li>
+            <li>LinkedIn: <a href="www.linkedin.com">35MM</a></li>
+            <li>E-mail: <a href="www.facebook.com">office@35mm.com</a></li>
+          </ul>
+
+        </section>
+        <section class="one_quarter">
+          <h2 class="title">Kontakt</h2>
+          <div class="about">
+            <img class="imgl" src="images/logo2.png" width="130" height="130" alt="">
+            <p>Ukoliko imate pohvale, primedbe ili predlog potencijalne saradnje sa nama, kontaktirajte nas na sledećem
+              <a href="kontakt.html" style="color: #e04f79;">linku</a>.<br><br><br>
+              <i>35MM</i>
+            </p>
+          </div>
+
+        </section>
+      </footer>
+    </div>
+    <script src="js/main.js"></script>
+    <!---<script src="js/jquery/jquery-3.4.1.min.js"></script>-->
+    <script src="js/menu.js"></script>
+</body>
+
+</html>
